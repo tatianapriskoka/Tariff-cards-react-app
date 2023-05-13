@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+.card {
+    width: 20vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.card__tariff {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+
+}
+
+.card__tariff-month {
+    padding-top: 10px;
+}
+
+.card__tariff-price {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.card__head {
+    font-size: 15px;
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+}
+
+.card__tariff,
+.card__head,
+.card__volume,
+.card__text {
+    border: 2px solid white;
+}
+
+.card__volume {
+    padding: 20px;
+    font-size: 15px;
+    background-color: rgb(244, 238, 238);
+    color: grey;
+}
+
+.card__text {
+    padding: 15px;
+    font-size: 15px;
+    line-height: 2;
+    background-color: rgb(225, 217, 217);
+    color: grey;
+}
+
+.card__head_blue {
+    background-color: #0d8f92;
+}
+
+.card__head_green {
+    background-color: #0e7b5c;
+}
+
+.card__head_red {
+    background-color: rgb(141, 43, 26);
+}
+
+.card__head_dark {
+    background-color: rgb(18, 19, 49);
+}
+
+.card__tariff_blue {
+    background-color: #2fc8cb;
+}
+
+.card__tariff_green {
+    background-color: #289c7b;
+}
+
+.card__tariff_red {
+    background-color: rgb(205, 78, 56);
+}
+
+.card__tariff_dark {
+    background-color: rgb(58, 52, 81);
+}
+
+.selected {
+    transform: scale(1.1);
+}
